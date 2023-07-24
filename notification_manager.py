@@ -24,7 +24,7 @@ class NotificationManager:
                  f"The fare is ${price} from {from_place} to {to} on {time}\n"
                  f"The lowest in 6 months time",
             from_=num,
-            to="+919299200001"
+            to="NUMBER"
         )
 
     def send_emails(self, emails, message):
